@@ -1,0 +1,25 @@
+#header {
+}
+#title {
+}
+#menu {
+}
+#rightColumn {
+  visibility: hidden;
+  display: none;
+}
+#leftColumn {
+  visibility: hidden;
+  display: none;
+}
+#content {
+  width: 98%;
+  height: 100%;
+}
+#dojo-slideshow {
+  height: 23em !important;  
+}
+#slideshow-desc {
+  top: -13%;
+  position: relative;
+}

@@ -1,0 +1,112 @@
+body {
+  background-color: slategray;
+  color: antiquewhite;
+  font-family: sans-serif;
+
+}
+#header {
+  border: black;
+  background-color: chocolate;
+  color: black;
+  font-size: 1em;
+}
+#title {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+#rightColumn, #leftColumn, #content, #footer {
+  background-color: khaki;
+  color: black;
+  font-size: 100%;
+  height: 100%;
+}
+/*buscar que es*/
+.clearFloat {
+  clear: both;
+  visibility: hidden;
+  display: block;
+}
+#footer {
+  background-color: chocolate;
+  color: black;
+  font-size: .58em;
+  height: 1em;
+  border-style: double;
+  position: inherit;
+}
+#credits {
+  float: left;
+
+}
+#footer-menu {
+  float: right;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em; 
+}
+ul, li {
+  text-align: left;
+  list-style: none; /*que hace esto*/
+}
+/*es: Distribucion 'I' Distribucion 'H' Distribucion 'L' (izquierda) Distribucion de 3 columnas*/
+.btn, .btn:link {
+  font-weight: bold;
+  padding-bottom: .2em;
+  padding-top: .2em;
+  padding-left: .5em;
+  padding-right: .5em;
+  color: #FFF;
+}
+.btn:visited {
+  color: #FFF
+}
+.btn:hover {
+  border: 2px solid #81BEF7;
+  border-radius: 5px;
+  color: #585858;
+}
+.btn:focus {
+}
+.btn:active {
+  border: 2px solid #81BEF7;
+  border-radius: 5px;
+  color: #585858;
+}
+
+/* Sets the style for links. */
+a, a:link {
+  font-weight: bold;
+  color: #08088A;
+  position: relative;
+}
+/* Sets the style for visited links. */
+a:visited {
+  color: #819FF7;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+  color: #819FF7;
+  text-decoration: underline;
+  animation: alien 250ms;
+  -webkit-animation: alien 250ms;
+}
+
+@keyframes alien{
+  from{left: 0em} to{left: 1em}
+}
+
+@-webkit-keyframes alien{
+  from{left: 0em} to{left: 1em}
+}
+/* Sets the style for a link that has focus. */
+a:focus {
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+  color: #08088A;
+  text-decoration: underline;
+}

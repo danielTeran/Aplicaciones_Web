@@ -1,0 +1,22 @@
+body{
+  background-image: url('http://www.wallsave.com/wallpapers/1920x1080/counter-strike-hd-pc/3399692/counter-strike-hd-pc-juegos-general-imagen-matrix-by-andre-w-jpg-3399692.jpg');
+}
+#header {
+}
+#title {
+  color: white;
+}
+#menu {
+}
+#img1, #img2, #img3, #img4{
+ width: 98%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+}
+#type5Column, #type6Column, #type7Column, #type8Column {
+  width: 98%;
+  height: 100%;
+  background-color: gray;
+}
+
+

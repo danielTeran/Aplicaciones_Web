@@ -1,0 +1,31 @@
+#header {
+}
+#title {
+}
+#menu {
+}
+#rightColumn {
+  /*height: 100% !important;*/
+  width: 21%;
+  float: right;
+  font-size: 90%;
+}
+#leftColumn {
+  /*height: 100% !important;*/
+  width: 21%; 
+  float: left;
+  font-size: 90%;
+}
+#content {
+  /*height: 90% !important;*/
+  width: 50%;
+  font-size: 100%;
+  margin: 0 auto;
+  clear: initial;
+}
+#dojo-slideshow {
+  height: 22em !important;  
+}
+#slideshow-desc {
+  top: -17%;
+}

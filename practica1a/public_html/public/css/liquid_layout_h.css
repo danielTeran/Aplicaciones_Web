@@ -1,0 +1,28 @@
+#header {
+}
+#title {
+  background-color: white;
+}
+#menu {
+  background-color: slategray;
+}
+#rightColumn {
+  visibility: hidden;
+  display: none;
+}
+#leftColumn {
+  visibility: hidden;
+  display: none;
+}
+#content {
+  background-color: white;
+  width: 98%;
+  margin: 0, 0;
+}
+#dojo-slideshow {
+  height: 23em !important; 
+}
+#slideshow-desc {
+  top: -13%;
+  position: relative;
+}
