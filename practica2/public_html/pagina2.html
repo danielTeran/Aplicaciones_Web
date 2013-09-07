@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Atlas Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="ejemplo de pagina web desarrollada con html y Bootstrap 2.3.2" />
+    <meta name="keywords" content="aplicaciones web, practica 2, selene marisol martinez ramirez,
+          facultad de ciencias, seminario de ciencias computacionales, unam, bootstrap"/>
+    <meta name="author" content="Ramírez González Juan José"/>
+    <meta name="author" content="González Terán Héctor Daniel"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
+    <!-- fav icon -->
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <!-- header -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">Atlas Blog</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="pagina0.html">Introduction</a>
+              </li>
+              <li>
+                <a href="pagina1.html">Biological Computing</a>
+              </li>
+              <li class="active">
+                <a href="#">Quantum Computing and Beyond</a>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <!-- /header -->
+
+    <div class="container">
+      <div id="row1"class="row">
+        <div id="block1" class="span6">
+          <h2> Quantum Computers </h2>
+          <p>
+            The idea of computers that harness the spooky powers of quantum physics -- such as entanglement, in which far-flung particles are linked across space and time, so that altering one instantaneously affects the other -- has been around for years. And though quantum computers are still decades from reality, achievements keep piling up: entanglement made visible to the naked eye, performed with ever-greater numbers of particles, and used to control mechanical objects.
+
+            The latest achievement, described March 31 in Nature Photonics by physicist Edo Waks of the University of Maryland and colleagues, involves the control of photons with logic gates made with quantum dots, or crystal semiconductors controlled by lasers and magnetism. The results "represent an important step towards solid-state quantum networks," the researchers wrote.
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img1" src="http://www.blogcdn.com/www.engadget.com/media/2011/05/5-18-2011d-waveone.jpg">
+        </div>
+      </div>
+      <div id="row2" class="row">
+        <div id="block2" class="span6">
+          <h2> Particle Collisions </h2> 
+          <p>
+            The Large Hadron Collider's 17 miles of track make it the world's largest particle accelerator. Could it also become the world's largest computer?
+
+            Not anytime soon, but it's at least possible to wonder. Another of Adamatzky's pursuits is what he calls "collision-based computing," in which computationally modeled particles course through a digital cyclotron, with their interactions used to carry out calculations. "Data and results are like balls travelling in an empty space," he said.
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img2" src="http://www.wired.com/wiredscience/wp-content/gallery/strange_computers/atlas_proton_collisions.jpg">
+        </div>
+      </div>
+      <div id="row3" class="row">
+        <div id="block3" class="span6">
+          <h2> The Quantum Brain </h2>
+          <p>
+            It's easy to think of minds as computers, and accurate in the sense that brains are information-processing systems. They are also, however, exponentially more complex and sophisticated than any engineered device.
+
+            Even as quantum computing remains a far-off dream, some scientists think quantum physics underlies our thoughts. The question is far from settled, but quantum processes have been observed in a variety of non-human cells, raising the alluring possibility of a role in thought.
+
+            "Quantum computation occurs in the human mind, but only at the unconscious level," said theoretical physicist Paola Zizzi of Italy's University of Padua. "As quantum computation is much faster than classical computation, the unconscious thought is then much faster than the conscious thought and in a sense, it 'prepares' the latter."
+
+            If identified in our brains, quantum thinking could be used to inspire computer designs not yet dreamed of. Broadly speaking, that's a motivation of many in the non-conventional computing community, said Hector Zenil, a computer scientist at Sweden's Karolinska University and editor of A Computable Universe: Understanding and Exploring Nature as Computation.
+
+            Zenil isn't convinced by quantum claims for the brain, but he sees a world suffused by informational processes. Researchers like himself and Zizzi are trying to "use the computational principles that nature may use in order to conceive new kinds of computing," said Zenil.
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img3" src="http://www.wired.com/wiredscience/wp-content/gallery/strange_computers/seaslug_neuron.jpg">
+        </div>
+      </div>
+      <div id="row4"class="row">
+        <div id="block4" class="span6">
+          <h2> Universe as Computer </h2>
+          <p>
+            In A Computable Universe, Zenil and others take the idea of computation as an abstract process, capable of being performed on any system that can store and manipulate information, to its logical extreme. Computers might not only be made from chemicals and cells and light, they say; the universe itself could be a computer, processing the information of which our everyday experiences -- and everything else -- are composed.
+
+            This is a tricky idea -- if the universe is computed, what's the computer? -- and for obvious reasons difficult to test, though Zenil thinks it's possible. In his work on the algorithmic aspects of existence, he's developed measures of the statistical distributions one would expect to see if reality is in fact computed.
+
+            If that seems a scary proposition, in which life would play out in linear mechanical ordination, rest assured: mechanistic, predetermined processes don't hold sway in a universal computer. Some aspects of existence will necessarily be "undecidable," impossible to describe with algorithms or predict beforehand. Ghosts will still live in the machine.
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img4" src="http://i.imgur.com/jTwPe.jpg?1">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

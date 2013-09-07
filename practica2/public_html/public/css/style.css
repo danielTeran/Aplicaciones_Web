@@ -1,0 +1,42 @@
+body{
+  background-image: url('http://www.wallsave.com/wallpapers/1920x1080/counter-strike-hd-pc/3399692/counter-strike-hd-pc-juegos-general-imagen-matrix-by-andre-w-jpg-3399692.jpg');
+}
+
+div #formulario {
+  margin: 0 auto;
+}
+
+div #intro{
+  color: white;
+  background-color: slategray; 
+}
+
+div #titulo{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+div #titulo_principal{
+  text-align: center;
+  color: white;
+  padding-bottom: 10%;
+}
+
+div #img1, div #img2, div #img3, div #img4{
+  margin: 0 auto;
+}
+
+div #img5{
+  padding: 5% 15%;
+  margin: 0 auto;
+  
+}
+
+div #block1, div #block2, div #block3, div #block4{
+  background-color: slategray; 
+}
+
+div #row1, div #row2, div #row3, div #row4{
+  padding-bottom: 10%;
+  color: white;
+}

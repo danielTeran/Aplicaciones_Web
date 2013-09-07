@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Atlas Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="ejemplo de pagina web desarrollada con html y Bootstrap 2.3.2" />
+    <meta name="keywords" content="aplicaciones web, practica 2, selene marisol martinez ramirez,
+          facultad de ciencias, seminario de ciencias computacionales, unam, bootstrap"/>
+    <meta name="author" content="Ramírez González Juan José"/>
+    <meta name="author" content="González Terán Héctor Daniel"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
+    <!-- fav icon -->
+    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <!-- header -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">Atlas Blog</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="pagina0.html">Introduction</a>
+              </li>
+              <li class="active">
+                <a href="#">Biological Computing</a>
+              </li>
+              <li>
+                <a href="pagina2.html">Quantum Computing and Beyond</a>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <!-- /header -->
+
+    <div class="container">
+      <div id="row1"class="row">
+        <div id="block1" class="span6">
+          <h2> Slime Computation </h2>
+          <p>
+            "The great appeal of non-traditional computing is that I can connect the un-connectable and link the un-linkable," said Andy Adamatzky, director of the Unconventional Computing Center at the University of the West of England. He's made computers from electrified liquid crystals, chemical goo and colliding particles, but is best known for his work with Physarum, the lowly slime mold.
+
+            Amoeba-like creatures that live in decaying logs and leaves, slime molds are, at different points in their lives, single-celled organisms or part of slug-like protoplasmic blobs made from the fusion of millions of individual cells. The latter form is assumed when slime molds search for food. In the process they perform surprisingly complicated feats of navigation and geometric problem-solving.
+
+            Slime molds are especially adept at finding solutions to tricky network problems, such as finding efficient designs for Spain's motorways and the Tokyo rail system. Adamatzky and colleagues plan to take this one step further: Their Physarum chip will be "a distributed biomorphic computing device built and operated by slime mold," they wrote in the project description.
+
+            "A living network of protoplasmic tubes acts as an active non-linear transducer of information, while templates of tubes coated with conductor act as fast information channels," describe the researchers. "Combined with conventional electronic components in a hybrid chip, Physarum networks will radically improve the performance of digital and analog circuits."
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img1" src="http://www.wired.com/wiredscience/wp-content/gallery/strange_computers/slime_mold.jpg"> 
+        </div>
+      </div>
+      <div id="row2" class="row">
+        <div id="block2" class="span6">
+          <h2> The Power of the Blob </h2> 
+          <p>
+            Inspired by slime mold's problem-solving abilities, Adamatzky and Jeff Jones, also of the University of the West of England, programmed the rules for its behavior into a computational model of chemical attraction. That Russian nesting doll of emulations -- slime mold interpreted as a program embodied in chemistry translated into a program -- produced a series of experiments described in one superbly named paper: "Computation of the Travelling Salesman Problem by a Shrinking Blob."
+
+            In that paper, released March 25 on arXiv, Jones and Adamatzky's simulated chemical goo solves a classic, deceptively challenging mathematical problem, finding the shortest route between many points. For a few points this is simple, but many points become intractably difficult to compute -- but not for the blob (above).
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img2" src="http://www.scientificamerican.com/media/inline/brainless-slime-molds_1.jpg">
+        </div>
+      </div>
+      <div id="row3" class="row">
+        <div id="block3" class="span6">
+          <h2> Computational DNA </h2>
+          <p>
+            It's hard to keep up with the accomplishments of synthetic biologists, who every week seem to announce some new method of turning life's building blocks into pieces for cellular computers. Yet even in this crowded field, last week's announcement by Stanford University researchers of a protein-based transistor stood out.
+
+            Responsible for conducting logic operations, the transistor, dubbed a "transcriptor," is the last of three components -- the others, already developed, are rewritable memory and information transmission -- necessary to program cells as computers. Synthetic biologist Drew Endy, the latest study's lead author, envisions plant-based environmental monitors, programmed tissues and even medical devices that "make Fantastic Voyage come true," he said.
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img3" src="http://www.wired.com/images_blogs/wiredscience/2013/04/jonoska_winfree.jpg">
+        </div>
+      </div>
+      <div id="row4"class="row">
+        <div id="block4" class="span6">
+          <h2> Evolution's Design </h2>
+          <p>
+            Most designs for molecular computers are based on human notions of what a computer should be. Yet as researchers applied mathematician Hajo Broersma of the Netherlands' University of Twente wrote of their work, "the simplest living systems have a complexity and sophistication that dwarfs manmade technology" -- and they weren't even designed to be that way. Evolution generated them.
+
+            In the NASCENCE project, short for "NAnoSCale Engineering for Novel Computation using Evolution," Broersma and colleagues plant to exploit evolution's ability to use combinations of molecules and their emergent properties in unexpected, incredibly powerful ways. They hope to develop a system that interfaces a digital computer with nano-scale particle networks, then use the computer to set algorithmic goals towards which evolution will guide the particles.
+
+            "We want to develop alternative approaches for situations or problems that are challenging or impossible to solve with conventional methods and models of computation," they write. One imagines computer chips with geometries typically seen in molecular structures, such as the E. coli ribosome and RNA seen here; success, predict Broersma's team, could lay "the foundations of the next industrial revolution."
+          </p>
+        </div>
+        <div class="span6">
+          <img id="img4" src="http://www.wired.com/wiredscience/wp-content/gallery/strange_computers/70s_openbook_nolabels.jpg">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
